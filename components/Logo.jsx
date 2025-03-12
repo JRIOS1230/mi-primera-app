@@ -1,6 +1,6 @@
 import Svg, { Path } from "react-native-svg";
 
-export const Logo = (props) => (
+const Logo = (props) => (
   <Svg xmlns="http://www.w3.org/2000/svg" width={176} height={40} {...props}>
     <Path d="M36.978 19.49a17.49 17.49 0 1 1 0-.021" />
     <Path
@@ -17,3 +17,5 @@ export const Logo = (props) => (
     />
   </Svg>
 );
+
+export default Logo;
